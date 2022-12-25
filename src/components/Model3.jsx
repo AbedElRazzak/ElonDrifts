@@ -7,7 +7,7 @@ export default function Model3() {
 
     let Model3Mesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/model3/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/model3/scene.glb"
     ).scene
 
     useEffect(() => {

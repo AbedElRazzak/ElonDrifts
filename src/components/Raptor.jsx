@@ -7,7 +7,7 @@ export default function Raptor() {
 
     let RaptorMesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/raptor/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/raptor/scene.glb"
     ).scene
 
     useEffect(() => {

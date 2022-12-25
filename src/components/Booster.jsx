@@ -7,7 +7,7 @@ export default function Booster() {
 
     const BoosterMesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/Booster/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/Booster/scene.glb"
     ).scene
 
     useEffect(() => {

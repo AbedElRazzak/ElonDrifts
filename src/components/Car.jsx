@@ -10,7 +10,7 @@ export default function Car() {
 
     let mesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/cyberTruck/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/cyberTruck/scene.glb"
     ).scene
 
     const position = [-2.1, 1, 2.5]

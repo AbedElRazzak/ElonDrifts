@@ -8,7 +8,7 @@ export default function Track() {
 
     const trackMesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/raceTrack/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/raceTrack/scene.glb"
     ).scene
 
     useEffect(() => {

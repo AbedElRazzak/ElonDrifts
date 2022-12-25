@@ -7,7 +7,7 @@ export default function SemiTruck() {
 
     let SemiTruckMesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/semiTruck/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/semiTruck/scene.glb"
     ).scene
 
     useEffect(() => {

@@ -7,7 +7,7 @@ export default function Roadster() {
 
     let RoadsterMesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/roadster/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/roadster/scene.glb"
     ).scene
 
     useEffect(() => {

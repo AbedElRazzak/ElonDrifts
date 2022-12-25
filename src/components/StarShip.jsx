@@ -7,7 +7,7 @@ export default function StarShip() {
 
     const starShipMesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/StarShip/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/StarShip/scene.glb"
     ).scene
 
     useEffect(() => {

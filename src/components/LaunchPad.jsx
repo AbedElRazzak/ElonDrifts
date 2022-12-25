@@ -7,7 +7,7 @@ export default function LaunchPad() {
 
     let LaunchPadMesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/launchPad/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/launchPad/scene.glb"
     ).scene
 
     useEffect(() => {

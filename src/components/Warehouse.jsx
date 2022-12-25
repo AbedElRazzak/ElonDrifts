@@ -7,7 +7,7 @@ export default function Warehouse() {
 
     let warehouseMesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/warehouse/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/warehouse/scene.glb"
     ).scene
 
     useEffect(() => {

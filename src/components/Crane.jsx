@@ -7,7 +7,7 @@ export default function Crane() {
 
     let CraneMesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/crane/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/crane/scene.glb"
     ).scene
 
     useEffect(() => {

@@ -7,7 +7,7 @@ export default function WaterTower() {
 
     let WaterTowerMesh = useLoader(
         GLTFLoader,
-        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/waterTower/scene.gltf"
+        "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/waterTower/scene.glb"
     ).scene
 
     useEffect(() => {
