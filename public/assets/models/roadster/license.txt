@@ -1,0 +1,11 @@
+Model Information:
+* title:	Tesla Roadster 2.0
+* source:	https://sketchfab.com/3d-models/tesla-roadster-20-8159a40ed6084d7b90462ce7c0912437
+* author:	MazProto6 (https://sketchfab.com/MazProto7)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Tesla Roadster 2.0" (https://sketchfab.com/3d-models/tesla-roadster-20-8159a40ed6084d7b90462ce7c0912437) by MazProto6 (https://sketchfab.com/MazProto7) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Weathered Water Tower
+* source:	https://sketchfab.com/3d-models/weathered-water-tower-bff3a33dff32414e83fa57e650e701ce
+* author:	Peter Primini (https://sketchfab.com/Planetrix23)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Weathered Water Tower" (https://sketchfab.com/3d-models/weathered-water-tower-bff3a33dff32414e83fa57e650e701ce) by Peter Primini (https://sketchfab.com/Planetrix23) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
