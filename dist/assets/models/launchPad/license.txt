@@ -1,0 +1,11 @@
+Model Information:
+* title:	SpaceX Falcon 9 Strongback
+* source:	https://sketchfab.com/3d-models/spacex-falcon-9-strongback-854921c608784624ad2af042a24fded4
+* author:	Thor's Hammer (https://sketchfab.com/captaintokra)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "SpaceX Falcon 9 Strongback" (https://sketchfab.com/3d-models/spacex-falcon-9-strongback-854921c608784624ad2af042a24fded4) by Thor's Hammer (https://sketchfab.com/captaintokra) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

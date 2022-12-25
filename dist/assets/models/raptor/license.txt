@@ -1,0 +1,11 @@
+Model Information:
+* title:	Space X Raptor-SL Rocket Engine
+* source:	https://sketchfab.com/3d-models/space-x-raptor-sl-rocket-engine-ec0366ce14614e61b4c957ee4eb2315f
+* author:	mkennedyswiss (https://sketchfab.com/mkennedyswiss)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Space X Raptor-SL Rocket Engine" (https://sketchfab.com/3d-models/space-x-raptor-sl-rocket-engine-ec0366ce14614e61b4c957ee4eb2315f) by mkennedyswiss (https://sketchfab.com/mkennedyswiss) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
