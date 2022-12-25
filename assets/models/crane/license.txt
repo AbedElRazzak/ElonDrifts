@@ -1,0 +1,11 @@
+Model Information:
+* title:	Crane
+* source:	https://sketchfab.com/3d-models/crane-0adf3e501a2a4155a25466112d29c6eb
+* author:	Théo Richard (https://sketchfab.com/theorichard)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Crane" (https://sketchfab.com/3d-models/crane-0adf3e501a2a4155a25466112d29c6eb) by Théo Richard (https://sketchfab.com/theorichard) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
