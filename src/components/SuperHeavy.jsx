@@ -7,6 +7,7 @@ export default function SuperHeavy() {
     let SuperHeavyMesh = useLoader(
         GLTFLoader,
         "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/superheavy/scene.glb"
+        // "/public/assets/models/superheavy/scene.glb"
     ).scene
 
     useEffect(() => {
