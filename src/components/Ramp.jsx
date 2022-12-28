@@ -6,11 +6,11 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 export function Ramp() {
   const rampMesh = useLoader(
     GLTFLoader, 
-    "public/" + "assets/models/ramp/ramp.glb")
+    "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/ramp/ramp.glb")
 
   const brdgRamp = useLoader(
      GLTFLoader, 
-     "public/" + "assets/models/ramp/brdg.glb")
+     "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/ramp/brdg.glb")
 
   const geometry = rampMesh.scene.children[0].geometry;
   
@@ -23,9 +23,7 @@ export function Ramp() {
   const _indices  = _geometry.index.array;
 
   useEffect(() => {
-    // brdgRamp.scene.scale.set(20, 20, 20)
     rampMesh.scene.children[0].position.set(-4.3, 0, 0.41)
-    // rampMesh.scene.children[0].rotation.set(0, Math.PI, 0)
   }, [rampMesh])
   
 
@@ -74,7 +72,7 @@ export function Ramp() {
 
   return (
     <>
-    {/* <primitive object={rampMesh.scene}/> */}
+    <primitive object={rampMesh.scene}/>
     </>
   )
 }
