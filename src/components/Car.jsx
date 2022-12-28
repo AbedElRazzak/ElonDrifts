@@ -11,7 +11,6 @@ export default function Car() {
     let mesh = useLoader(
         GLTFLoader,
         "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/cyberTruck/scene.glb"
-        // "/public/assets/models/cyberTruck/scene.glb"
     ).scene
 
     const position = [-2.1, 1, 2.5]
@@ -20,10 +19,6 @@ export default function Car() {
     const height = 0.06;
     const front = 0.14;
     const wheelRadius = 0.04;
-    // const width = 2;
-    // const height = 1;
-    // const front = 2;
-    // const wheelRadius = 0.9;
 
 
     const chassisBodyArgs = [width, height, front * 2]
@@ -54,9 +49,7 @@ export default function Car() {
     useEffect(() => {
         if (!mesh) return
         mesh.scale.set(0.09, 0.09, 0.09)
-        // mesh.scale.set(1,1,1)
         mesh.children[0].position.set(0, -1.2, 0)
-        // set(39, -0.9, -6)
     }, [mesh])
 
     return (

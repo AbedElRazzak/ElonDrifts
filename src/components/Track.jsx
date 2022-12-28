@@ -14,7 +14,6 @@ export default function Track() {
     useEffect(() => {
         trackMesh.scale.set(0.02, 0.02, 0.02)
         trackMesh.children[0].position.set(-100,-2,-45)
-        // trackMesh.children[0].position.set(0,0,0)
         trackMesh.rotation.y = 80.1
     }, [trackMesh])
     return (

@@ -2,18 +2,16 @@ import { React } from 'react';
 import './App.css'
 import { Canvas } from '@react-three/fiber'
 import { Environment, OrbitControls, PerspectiveCamera } from '@react-three/drei'
+import { Physics } from "@react-three/cannon"
 import Ground from './components/Ground';
 import Car from './components/Car';
 import Track from './components/Track';
 import StarShip from './components/StarShip';
 import Booster from './components/Booster';
-import SemiTruck from './components/SemiTruck';
-import ModelX from './components/ModelX';
-import { Physics } from "@react-three/cannon"
+import Truck from './components/Truck';
 import SuperHeavy from './components/SuperHeavy';
-import Roadster from './components/Roadster'
-import Model3 from './components/Model3'
-import Raptor from './components/Raptor';
+import PrototypeRocket from './components/PrototypeRocket'
+import GazTank from './components/GazTank';
 import LaunchPad from './components/LaunchPad';
 import Warehouse from './components/Warehouse';
 import Crane from './components/Crane';
@@ -33,7 +31,7 @@ function App() {
         >
           <Environment background={true} files= {"https://abedelrazzak.github.io/ElonDrifts/" + "assets/sky4k.hdr"} />
           <OrbitControls target={[-2, 0.4, -0.1]}/>
-          <PerspectiveCamera makeDefault position={[-14, 12, 20]} fov={18}/>
+          <PerspectiveCamera makeDefault position={[-15.5, 12, 20]} fov={18}/>
           <ambientLight intensity={0.5} />
           <pointLight intensity={0.5} position={[0,50,0]} />
           <Ground />
@@ -41,12 +39,10 @@ function App() {
           <Track />
           <StarShip />
           <Booster />
-          <SemiTruck />
-          <ModelX />
+          <Truck />
           <SuperHeavy />
-          <Roadster />
-          <Model3 />
-          <Raptor />
+          <PrototypeRocket />
+          <GazTank />
           <LaunchPad />
           <Warehouse />
           <Crane />

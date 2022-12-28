@@ -11,16 +11,14 @@ export default function Crane() {
     ).scene
 
     useEffect(() => {
-        CraneMesh.scale.set(0.003, 0.003, 0.003)
-        CraneMesh.children[0].position.set(600, 650, 2000)
+        CraneMesh.scale.set(2.1, 2.1, 2.1)
+        CraneMesh.children[0].position.set(2.2, 0, 3.2)
     }, [CraneMesh])
 
     return (
         <>
           <primitive object={CraneMesh} rotation-y={3.6}/>
-          <ColliderBox position={[-4.14, 0, -4.2]} scale={[0.4, 1, 0.4]} rotationX={0} rotationY={0}/>
-          <ColliderBox position={[-4.5, 0, -4.9]} scale={[0.4, 1, 0.4]} rotationX={0} rotationY={0}/>
-          <ColliderBox position={[-4.3, 0, -4.5]} scale={[0.2, 1, 0.2]} rotationX={0} rotationY={0}/>
+          <ColliderBox position={[-7, 0, -4]} scale={[0.9, 1, 0.4]} rotationX={0} rotationY={0.47}/>
         </>
     )
 }

@@ -11,14 +11,13 @@ export default function Booster() {
     ).scene
 
     useEffect(() => {
-        BoosterMesh.scale.set(0.04, 0.04, 0.04)
-        BoosterMesh.children[0].position.set(60, 2.2, -120)
+        BoosterMesh.scale.set(0.2, 0.2, 0.2)
+        BoosterMesh.children[0].position.set(17.2, 1, -5.1)
     }, [BoosterMesh])
 
     return (
         <>
           <primitive object={BoosterMesh}/>
-          <ColliderBox position={[2.4, 0, -4.8]} scale={[1.2, 1, 1.2]} rotationX={0} rotationY={0}/>
         </>
     )
 }

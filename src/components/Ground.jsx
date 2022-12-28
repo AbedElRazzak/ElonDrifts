@@ -44,7 +44,6 @@ export default function Ground() {
         <>
         <mesh
           position={[-2.285, -0.01, -1.325]}
-          // position={[-2.285, -0.01, 1]}
           rotation-x={-Math.PI / 2}
         >
             <planeGeometry args={[14, 14]}/>
@@ -56,11 +55,8 @@ export default function Ground() {
             />
         </mesh>
 
-
-
         <mesh
           position={[-2.285, -0.015, -1.325]}
-          // position={[0, -0.015, 0]}
           rotation-x={-Math.PI / 2}
           rotation-z={-0.079}
         >
@@ -70,7 +66,6 @@ export default function Ground() {
               alphaMap={alphaMap}
               transparent={true}
               color={0x1C1C1B}
-              //   1C1C1B
               envMapIntensity={0.35}
               metalness={0.05}
               roughness={0.4}

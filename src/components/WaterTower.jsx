@@ -21,7 +21,6 @@ export default function WaterTower() {
             <ColliderBox position={[-9, 0, 0]} scale={[0.8, 0.8, 0.1]} rotationX={0} rotationY={0}/>
             <ColliderBox position={[-9, 0, 0]} scale={[0.1, 0.8, 0.8]} rotationX={0} rotationY={0}/>
         </>
-
     )
 }
 

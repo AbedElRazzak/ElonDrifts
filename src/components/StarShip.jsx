@@ -11,18 +11,16 @@ export default function StarShip() {
     ).scene
 
     useEffect(() => {
-        starShipMesh.scale.set(0.0007, 0.0007, 0.0007)
-        // starShipMesh.children[0].position.set(4200,0,2000)
-        starShipMesh.position.set(-7,3.6,-3.5)
-        // starShipMesh.rotation.y = 9
+        starShipMesh.scale.set(0.8, 0.8, 0.8)
+        starShipMesh.position.set(-6.1, 0, -4.5)
     }, [starShipMesh])
 
     return (
         <>
-            <primitive object={starShipMesh} rotation-y={0.2} />
-            <ColliderBox position={[-7, 0, -3.5]} scale={[0.8, 0.8, 0.8]} rotationX={0} rotationY={0}/>
-            <ColliderBox position={[-7.6, 0, -3.43]} scale={[0.3, 0.8, 0.07]} rotationX={0} rotationY={0}/>
-            <ColliderBox position={[-6.4, 0, -3.64]} scale={[0.3, 0.8, 0.07]} rotationX={0} rotationY={0}/>
+            <primitive object={starShipMesh} rotation-y={2} />
+            <ColliderBox position={[-6.13, 0, -4.48]} scale={[0.6, 1, 0.6]} rotationX={0} rotationY={0}/>
+            <ColliderBox position={[-5.65, 0, -4.7]} scale={[0.3, 0.8, 0.07]} rotationX={0} rotationY={0.47}/>
+            <ColliderBox position={[-6.5, 0, -4.31]} scale={[0.45, 0.8, 0.07]} rotationX={0} rotationY={0.47}/>
         </>
     )
 }
