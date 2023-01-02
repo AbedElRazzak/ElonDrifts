@@ -72,7 +72,7 @@ export function Ramp() {
 
   return (
     <>
-    <primitive object={rampMesh.scene}/>
+    {/* <primitive object={rampMesh.scene}/> */}
     </>
   )
 }

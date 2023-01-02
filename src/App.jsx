@@ -1,5 +1,6 @@
-import { React } from 'react';
+import { React, Suspense } from 'react';
 import './App.css'
+import { Triangle } from 'react-loader-spinner'
 import { Canvas } from '@react-three/fiber'
 import { Environment, OrbitControls, PerspectiveCamera } from '@react-three/drei'
 import { Physics } from "@react-three/cannon"
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <div id="canvas-container">
+      <Suspense fallback={<Loading />}>
       <Canvas gl={{antialias: true}}>
         <Physics
            broadphase='SAP'
@@ -56,8 +58,30 @@ function App() {
         <p>press r to reset</p>
         <p>move camera with the mouse</p>
       </div>
+      </Suspense>
+
+
     </div>
   )
 }
+
+
+function Loading() {
+  return (
+  <div className='cont'>
+    <div className='loading-cont'>
+      <Triangle
+        height="60"
+        width="60"
+        color="#D3D4D5"
+        ariaLabel="triangle-loading"
+      />
+      <label className='loading-text'>Downloading the materials, please wait.</label>
+    </div>
+  </div>
+  )
+
+}
+
 
 export default App
