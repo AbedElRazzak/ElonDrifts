@@ -1,4 +1,4 @@
-import { React, Suspense } from 'react';
+import React, {Suspense} from 'react';
 import './App.css'
 import { Triangle } from 'react-loader-spinner'
 import { Canvas } from '@react-three/fiber'
@@ -22,7 +22,6 @@ import WaterTower from './components/WaterTower';
 
 function App() {
 
-
   return (
     <div id="canvas-container">
       <Suspense fallback={<Loading />}>
@@ -31,7 +30,7 @@ function App() {
            broadphase='SAP'
            gravity={[0, -2.6, 0]}
         >
-          <Environment background={true} files= {"https://abedelrazzak.github.io/ElonDrifts/" + "assets/sky4k.hdr"} />
+          <Environment background={true} files= {"https://abedelrazzak.github.io/ElonDrifts/" + "assets/sky.hdr"} />
           <OrbitControls target={[-2, 0.4, -0.1]}/>
           <PerspectiveCamera makeDefault position={[-15.5, 12, 20]} fov={18}/>
           <ambientLight intensity={0.5} />
@@ -76,7 +75,7 @@ function Loading() {
         color="#D3D4D5"
         ariaLabel="triangle-loading"
       />
-      <label className='loading-text'>Downloading the materials, please wait.</label>
+      <label className='loading-text'>Downloading the materials, this may take a minute please wait.</label>
     </div>
   </div>
   )

@@ -5,11 +5,11 @@ import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 
 export function Ramp() {
   const rampMesh = useLoader(
-    GLTFLoader, 
+    GLTFLoader,
     "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/ramp/ramp.glb")
 
   const brdgRamp = useLoader(
-     GLTFLoader, 
+     GLTFLoader,
      "https://abedelrazzak.github.io/ElonDrifts/" + "assets/models/ramp/brdg.glb")
 
   const geometry = rampMesh.scene.children[0].geometry;
